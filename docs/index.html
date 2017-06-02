@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <title>Domiki</title>
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&amp;amp;subset=cyrillic">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.2/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.9.0/tingle.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+</html>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row middle-xs">
+        <div class="col-md-2 col-sm-2 col-xs-6">
+          <div class="header__logo">
+            <h1>Лого</h1>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-4">
+          <div class="header__phone flex middle-xs end-xs"><a class="flex" href="tel:8129999999"><i class="fa fa-phone"></i><span>(812) 999-99-99</span></a></div>
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-2 end-xs">
+          <button class="menu-open fa fa-bars"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="slideout-menu" id="menu">
+    <div class="row center-xs">
+      <div class="col-xs-12">
+        <ul>
+          <li><a href="#home"><i class="fa fa-home"></i> Главная</a></li>
+          <li><a href="#stock"><i class="fa fa-tags"></i> Скидки</a></li>
+          <li><a href="#dom"><i class="fa fa-cog"></i> Домики</a></li>
+          <li><a href="#facts"><i class="fa fa-building-o"></i> Производство</a></li>
+          <li><a href="#review"><i class="fa fa-users"></i> Отзывы</a></li>
+          <li><a href="#callback"><i class="fa fa-map-marker"></i> Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel" id="panel">
+    <section class="slider" id="home">
+      <div class="container">
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            <div class="slider__block">
+              <h1>лучшие<br>домики<br>для ваших детей</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex center-xs">
+        <div class="slide-down flex center-xs"><i class="fa fa-chevron-down"></i></div>
+      </div>
+      <div class="swiper-container" id="header-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url('img/slider.png');"></div>
+          <div class="swiper-slide" style="background-image: url('img/slider.png');"></div>
+          <div class="swiper-slide" style="background-image: url('img/slider.png');"></div>
+        </div>
+        <!-- Add Arrows-->
+        <div class="swiper-button-next fa fa-chevron-right"></div>
+        <div class="swiper-button-prev fa fa-chevron-left"></div>
+      </div>
+    </section>
+    <section class="stock" id="stock">
+      <div class="container">
+        <div class="row middle-xs">
+          <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="flex middle-xs"><span class="stock__number">20</span><span class="stock__percent">%</span><span class="stock__text">Скидка</span></div>
+          </div>
+          <div class="col-md-7 col-sm-7 col-xs-12">
+            <h4>Название акции</h4>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristiqumsan. Pellentesque elit tortor, adipiscing vel velit in, ultricies fermentum nulla. Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna.</p><a href="#callback">Получить скидку</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="product-info">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12 product-info__block product-info__block--1">
+          <h2>Первое <span>Приемущество</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit eget nisl scelerisque pretium sit amet ut libero. Pellentesque tincidunt convallis ipsum. Fusce nec dolor vel diam pharetra mollis eu in velit.</p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 product-info__block product-info__block--2">
+          <h2>Второе <span>Приемущество</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit eget nisl scelerisque pretium sit amet ut libero. Pellentesque tincidunt convallis ipsum. Fusce nec dolor vel diam pharetra mollis eu in velit.</p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 product-info__block product-info__block--3">
+          <h2>Третье <span>Приемущество</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit eget nisl scelerisque pretium sit amet ut libero. Pellentesque tincidunt convallis ipsum. Fusce nec dolor vel diam pharetra mollis eu in velit.</p>
+        </div>
+      </div>
+    </section>
+    <section class="product product-first" id="dom">
+      <div class="container">
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            <div class="product__heading middle-xs"><i class="fa fa-th"></i>
+              <h1>Общее описание продуктов</h1>
+            </div>
+            <p class="product__text">Lorem great knowledgebase and Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus laoreet justo, eu suscipit turpis mollis non. Speakers from well known companies with great knowledgebase and Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus laoreet justo, eu suscipit turpis mollis non. Mus laoreet justo, eu suscipit turpis mollis non. Speakers from well known companies with great knowledgebase and Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus laoreet just</p>
+          </div>
+          <div class="col-xs-12"></div>
+        </div>
+      </div>
+    </section>
+    <section class="product product-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="product__block" id="tabs">
+              <ul class="flex">
+                <li><a href="#tabs-1"><img src="img/product.png"></a></li>
+                <li><a href="#tabs-2"><img src="img/product.png"></a></li>
+                <li><a href="#tabs-3"><img src="img/product.png"></a></li>
+                <li><a href="#tabs-4"><img src="img/product.png"></a></li>
+                <li><a href="#tabs-5"><img src="img/product.png"></a></li>
+              </ul>
+              <div id="tabs-1">
+                <article class="product__block__tab">
+                  <div class="row">
+                    <div class="col-md-5 col-sm-5 col-xs-12 col-md-offset-1">
+                      <div class="product__block__tab__image" id="big-image"><img src="img/product-big.png"></div>
+                      <div class="flex"><a class="small-image" data-image="img/product-small.png">
+                          <div class="product__block__tab__image small"><img src="img/product-big.png"></div></a><a class="small-image" data-image="img/product-big.png">
+                          <div class="product__block__tab__image small"><img src="img/product-big.png"></div></a><a class="button-video" data-image="img/product-big.png">
+                          <div class="product__block__tab__image small"><img src="img/product-big.png">
+                            <div class="product__block__tab__image__video" onclick="modalContent.open();"><i class="fa fa-play"></i></div>
+                          </div></a></div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                      <h2>Сказочный домик</h2>
+                      <hr><span class="product__block__tab__price">Цена:<span> 80 000 руб.</span></span>
+                      <hr>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristiqumsan. Pellentesque elit tortor, adipiscing vel velit in, ultricies fermentum nulla. Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna.</p>
+                      <p>Donec in urna sem. Nulla facilisi. Vestibulum ut aliquet magna. Nulla nec faucibus est. In in augue placerat elementum augue Nulla nec faucibus est. In in augue placerat elementum augue.</p>
+                      <hr><a class="product__block__tab__btn" href="#callback">Сделать заказ</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div id="tabs-2">
+                <p>lorem 2</p>
+              </div>
+              <div id="tabs-3">
+                <p>lorem 3</p>
+              </div>
+              <div id="tabs-4">
+                <p>lorem 4</p>
+              </div>
+              <div id="tabs-5">
+                <p>lorem 5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row center-xs">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="product__heading product__heading--small middle-xs"><i class="fa fa-cogs"></i>
+              <h2>Все домики</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row no-m gallery">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="product__block__dom">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 col-xs-12"><a href="img/product-big.png">
+                  <div class="product__block__dom__image"><img src="img/product-small.png" alt=""/>
+                    <div class="product__block__dom__image__hover"><i class="fa fa-search-plus"></i></div>
+                  </div></a></div>
+              <div class="col-md-7 col-sm-7 col-xs-12">
+                <h4>Домик 1</h4>
+                <hr/><span>Lorem Ipsum Dolar</span>
+                <p>Lorem ipsum dolor sit amet, consecteLorem ipsum dolor sit aet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="product__block__dom__price">50 000 руб.</div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="product__block__dom">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 col-xs-12"><a href="img/product-big.png">
+                  <div class="product__block__dom__image"><img src="img/product-small.png" alt=""/>
+                    <div class="product__block__dom__image__hover"><i class="fa fa-search-plus"></i></div>
+                  </div></a></div>
+              <div class="col-md-7 col-sm-7 col-xs-12">
+                <h4>Домик 1</h4>
+                <hr/><span>Lorem Ipsum Dolar</span>
+                <p>Lorem ipsum dolor sit amet, consecteLorem ipsum dolor sit aet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="product__block__dom__price">50 000 руб.</div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="product__block__dom">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 col-xs-12"><a href="img/product-big.png">
+                  <div class="product__block__dom__image"><img src="img/product-small.png" alt=""/>
+                    <div class="product__block__dom__image__hover"><i class="fa fa-search-plus"></i></div>
+                  </div></a></div>
+              <div class="col-md-7 col-sm-7 col-xs-12">
+                <h4>Домик 1</h4>
+                <hr/><span>Lorem Ipsum Dolar</span>
+                <p>Lorem ipsum dolor sit amet, consecteLorem ipsum dolor sit aet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="product__block__dom__price">50 000 руб.</div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="product__block__dom">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 col-xs-12"><a href="img/product-big.png">
+                  <div class="product__block__dom__image"><img src="img/product-small.png" alt=""/>
+                    <div class="product__block__dom__image__hover"><i class="fa fa-search-plus"></i></div>
+                  </div></a></div>
+              <div class="col-md-7 col-sm-7 col-xs-12">
+                <h4>Домик 1</h4>
+                <hr/><span>Lorem Ipsum Dolar</span>
+                <p>Lorem ipsum dolor sit amet, consecteLorem ipsum dolor sit aet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="product__block__dom__price">50 000 руб.</div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="product__block__dom">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 col-xs-12"><a href="img/product-big.png">
+                  <div class="product__block__dom__image"><img src="img/product-small.png" alt=""/>
+                    <div class="product__block__dom__image__hover"><i class="fa fa-search-plus"></i></div>
+                  </div></a></div>
+              <div class="col-md-7 col-sm-7 col-xs-12">
+                <h4>Домик 1</h4>
+                <hr/><span>Lorem Ipsum Dolar</span>
+                <p>Lorem ipsum dolor sit amet, consecteLorem ipsum dolor sit aet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="product__block__dom__price">50 000 руб.</div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="product__block__dom">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 col-xs-12"><a href="img/product-big.png">
+                  <div class="product__block__dom__image"><img src="img/product-small.png" alt=""/>
+                    <div class="product__block__dom__image__hover"><i class="fa fa-search-plus"></i></div>
+                  </div></a></div>
+              <div class="col-md-7 col-sm-7 col-xs-12">
+                <h4>Домик 1</h4>
+                <hr/><span>Lorem Ipsum Dolar</span>
+                <p>Lorem ipsum dolor sit amet, consecteLorem ipsum dolor sit aet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="product__block__dom__price">50 000 руб.</div>
+          </div>
+        </div>
+      </div>
+      <div class="row no-m gallery gallery-hide" style="display: none;">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="product__block__dom">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 col-xs-12"><a href="img/product-big.png">
+                  <div class="product__block__dom__image"><img src="img/product-small.png" alt=""/>
+                    <div class="product__block__dom__image__hover"><i class="fa fa-search-plus"></i></div>
+                  </div></a></div>
+              <div class="col-md-7 col-sm-7 col-xs-12">
+                <h4>Домик 1</h4>
+                <hr/><span>Lorem Ipsum Dolar</span>
+                <p>Lorem ipsum dolor sit amet, consecteLorem ipsum dolor sit aet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="product__block__dom__price">50 000 руб.</div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="product__block__dom">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 col-xs-12"><a href="img/product-big.png">
+                  <div class="product__block__dom__image"><img src="img/product-small.png" alt=""/>
+                    <div class="product__block__dom__image__hover"><i class="fa fa-search-plus"></i></div>
+                  </div></a></div>
+              <div class="col-md-7 col-sm-7 col-xs-12">
+                <h4>Домик 1</h4>
+                <hr/><span>Lorem Ipsum Dolar</span>
+                <p>Lorem ipsum dolor sit amet, consecteLorem ipsum dolor sit aet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="product__block__dom__price">50 000 руб.</div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="product__block__dom">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 col-xs-12"><a href="img/product-big.png">
+                  <div class="product__block__dom__image"><img src="img/product-small.png" alt=""/>
+                    <div class="product__block__dom__image__hover"><i class="fa fa-search-plus"></i></div>
+                  </div></a></div>
+              <div class="col-md-7 col-sm-7 col-xs-12">
+                <h4>Домик 1</h4>
+                <hr/><span>Lorem Ipsum Dolar</span>
+                <p>Lorem ipsum dolor sit amet, consecteLorem ipsum dolor sit aet, consectetur adipiscing elit</p>
+              </div>
+            </div>
+            <div class="product__block__dom__price">50 000 руб.</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 center-xs"><a class="product__btn__more" id="more"><i class="fa fa-chevron-circle-down"></i><span>Больше домиков</span></a></div>
+    </section>
+    <section class="facts" id="facts">
+      <div class="container">
+        <div class="row center-xs">
+          <div class="col-md-4 col-sm-4 col-xs-12 center-xs">
+            <figure><i class="fa fa-birthday-cake"></i>
+              <h3>Подарки ко дню рождения</h3>
+              <hr>
+              <p>Lorem ipsum dolor sit amet, consecte Lorem ipsum dolor sit aet, consectetur  dipiscing elit Proin</p>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <figure><i class="fa fa-usd"></i>
+              <h3>Специальные скидки</h3>
+              <hr>
+              <p>Lorem ipsum dolor sit amet, consecte Lorem ipsum dolor sit aet, consectetur  dipiscing elit Proin</p>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <figure><i class="fa fa-truck"></i>
+              <h3>Бесплатная доставка</h3>
+              <hr>
+              <p>Lorem ipsum dolor sit amet, consecte Lorem ipsum dolor sit aet, consectetur  dipiscing elit Proin</p>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us">
+      <div class="container">
+        <div class="row center-xs middle-xs">
+          <div class="col-sm-8 col-xs-12">
+            <div class="about-us__block">
+              <h2>Процесс<span>производства</span></h2>
+              <p>Lorem great knowledgebase and Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus laoreet justo, eu suscipit turpis mollis non. Speakers from well known companies with great knowledgebase and Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus laoreet justo, eu suscipit turpis mollis non.ctetur adipiscing elit. Mauris finibus laoreet jusmet, consectetur adipiscing elit. Mauris finibus laoreet justo, eu suscipit turpis mollis non.ctetur adipiscing elit. Mauris finibus laoreet justo, eu suscipit turpis mollis non.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-container" id="slider-about-us">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/about-us.png">
+            <div class="block-green"></div>
+          </div>
+          <div class="swiper-slide"><img src="img/about-us.png">
+            <div class="block-green"></div>
+          </div>
+          <div class="swiper-slide"><img src="img/about-us.png">
+            <div class="block-green"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="review" id="review">
+      <div class="container">
+        <div class="row center-xs">
+          <div class="col-sm-10 col-xs-12">
+            <div class="swiper-container" id="slider-review">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="review__photo">
+                        <div><img src="img/review.png"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-12">
+                      <p class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristique accumsan. Pellentesque elit tortor, adipiscing vel velit inermentum nulla. Donec in urna semulla facilisi.</p>
+                      <hr>
+                      <p class="review__author">Миша <span>| 9 лет</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="review__photo">
+                        <div><img src="img/review.png"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-12">
+                      <p class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristique accumsan. Pellentesque elit tortor, adipiscing vel velit inermentum nulla. Donec in urna semulla facilisi.</p>
+                      <hr>
+                      <p class="review__author">Миша <span>| 9 лет</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                      <div class="review__photo">
+                        <div><img src="img/review.png"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-12">
+                      <p class="review__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida velit quis dolor tristique accumsan. Pellentesque elit tortor, adipiscing vel velit inermentum nulla. Donec in urna semulla facilisi.</p>
+                      <hr>
+                      <p class="review__author">Миша <span>| 9 лет</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="video"><img src="img/slider.png" alt="">
+      <div class="video__play" onclick="modalContent.open();"><i class="fa fa-play"></i></div>
+      <div class="video__bg"></div>
+    </section>
+    <section class="callback" id="callback">
+      <div class="container">
+        <div class="row center-xs">
+          <div class="col-sm-10 col-xs-12">
+            <div class="callback__block">
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                  <div class="callback__block__contact">
+                    <div class="row">
+                      <div class="col-xs-2"><i class="fa fa-clock-o"></i></div>
+                      <div class="col-xs-10">
+                        <h4>Понедельник - Пятница:</h4>
+                        <p>9:00 - 18:00</p>
+                      </div>
+                      <div class="col-xs-12">
+                        <hr>
+                      </div>
+                      <div class="col-xs-2"><i class="fa fa-phone"></i></div>
+                      <div class="col-xs-10">
+                        <h4>Телефон:</h4>
+                        <p>8 (812) 999-99-99</p>
+                      </div>
+                      <div class="col-xs-12">
+                        <div class="callback__block__contact__contact-us middle-xs center-xs">
+                          <p>Свяжитесь с нами</p>
+                        </div>
+                      </div>
+                      <div class="col-xs-2"><i class="fa fa-map-marker"></i></div>
+                      <div class="col-xs-10">
+                        <h4>Адрес:</h4>
+                        <p>ул. Канареечная, д.12, лит. А, <br>пом. 9-Н<br>Санкт-Петербург, Россия. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                  <form>
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="email" placeholder="Ваш Email адрес">
+                    <input type="tel" placeholder="Номер телефона">
+                    <textarea placeholder="Текст сообщения"></textarea>
+                    <input type="submit" value="Отправить">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <div class="overlay" onclick="style.pointerEvents='none'"></div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3997.9285592198435!2d30.24402274759858!3d59.93273489264242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469630d2327c14af%3A0xde47de3163c74f!2z0JrQsNC90LDRgNC10LXRh9C90LDRjyDRg9C7LiwgMTIsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5OTEwNg!5e0!3m2!1sru!2sua!4v1490964218763" width="100%" height="700px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row center-xs middle-xs">
+          <div class="col-xs-12">
+            <div class="flex center-xs footer__block middle-xs"><a href="#" targer="_blank"><i class="fa fa-facebook"></i></a><a href="#" targer="_blank"><i class="fa fa-twitter"></i></a><a href="#" targer="_blank"><i class="fa fa-vk"></i></a><a href="#" targer="_blank"><i class="fa fa-instagram"></i></a></div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <p>Крохадомики © 2017.<br><a onclick="modalPolitika.open()">Политика конфиденциальности</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal-video-1" style="display: none;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/FRW9lpmpjAs" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+    <div class="modal-politika"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.2/baguetteBox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.9.0/tingle.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/slideout.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    var modalContent = new tingle.modal();
+    modalContent.setContent(document.querySelector('.modal-video-1').innerHTML);
+    var modalPolitika = new tingle.modal();
+    modalPolitika.setContent(document.querySelector('.modal-politika').innerHTML);
+    
+    
+  </script>
+</body>
